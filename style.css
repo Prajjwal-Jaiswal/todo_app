@@ -1,0 +1,55 @@
+*
+{
+    background-color: rgb(193, 127, 255);
+}
+
+h1
+{
+    text-align: center;
+} 
+
+div 
+{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+input
+{
+    padding:5px;
+    margin:10px;
+    width:25%;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+button
+{
+    width:20%;
+    padding:5px 5px;
+    background-color: rgb(202, 249, 255);
+    border: 2px solid black;
+    border-radius: 10%;
+    align-self: center;
+}
+
+ul
+{
+    align-self: center;
+}
+
+.close
+{
+    cursor: pointer;
+}
+
+.container
+{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
